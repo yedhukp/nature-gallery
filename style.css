@@ -1,0 +1,418 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    color: #1E73BE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    gap: 2px;
+}
+.logo .log{
+    font-family: "Cedarville Cursive", cursive;
+
+}
+.logo span{
+    color: aquamarine;
+}
+/* .logo::after{
+    content: var('tourist');
+    font-family: normal;
+    color: #333;
+} */
+.btn{
+    padding: 17px;
+    border: none;
+    background: linear-gradient(rgb(207, 250, 207),rgb(190, 240, 238));
+    color: black;
+    border-radius: 30px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.bannerContainer{
+    max-width: 1300px;
+    margin: auto;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.container ul{
+    display: flex;
+    gap: 50px;
+    
+}
+.container .active{
+    color: black;
+}
+.container ul li{
+    list-style: none;
+    padding: 10px;
+   
+}
+.container ul li a{
+text-decoration: none;   
+}
+.container ul :hover{
+background-color:#1E73BE;
+color: white;
+}
+.box{
+    height: 20px;
+    display: flex;
+    cursor: pointer;
+    padding: 10px 20px;
+    background: #fff;
+    border-radius: 30px;
+    align-items: center;
+    box-shadow: 0 3px 5px;
+}
+.box:hover input{
+    width: 150px;
+}
+.box input{
+    width: 0;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    transition: 0.8s;
+    background: transparent;
+}
+img{
+    width: 100%;
+}
+.image{
+    background-image: url('/images/beautiful-shot-green-valley-with-high-rocks-steep-hills-cloudy-grey-gloomy-sky.jpg');
+    background-size: cover   ;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center ;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+}
+.headtext h1{
+    font-size: 60px;
+    text-shadow: 6px 4px 2px rgba(0,0,0,0.6);
+
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    box-shadow: #0475d8;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.headtext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+/* button{
+    background-color: rgb(117, 174, 227);
+    color: white;
+    padding: 3px;
+} */
+
+
+.grid_container{
+    display: flex;
+    
+}
+.guide{
+    background-image: url('images/man-traveler-with-backpack-mountaineering-travel-lifestyle-concept.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+    height: 50vh;
+    width: 50%;
+    display: flex;
+   
+    align-items: center;
+}
+.city{
+    background-image: url('images/pexels-pixabay-326807.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+    height: 50vh;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.text1 h2{
+    font-size: 50px;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+.text1 {
+    background: none;
+    padding: 3px;
+    margin: 10px;
+}
+.btn-outline{
+    background: none;
+    border: 2px solid rgb(212, 232, 182);
+    color: white;
+    font-weight: 500;
+    padding: 9px;
+}
+.grid_Container{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+}
+.grid_Container .about{
+    display: flex;
+    align-items: center;
+   
+    
+}
+.img_contain{
+    width: 50%;
+}
+.text2{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+   
+    padding: 20px;
+}
+
+
+.tip{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.trip ul {
+display: flex;
+flex-direction: column;
+gap: 3px;
+   
+}
+.trip ul li{
+    padding: 10px;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 30px; 
+    max-width: 1200px;
+    margin: auto;
+}
+.rock{
+    display: flex;
+    gap: 10px;
+background-color: whitesmoke;
+padding: 10px;
+
+}
+.image_box{
+    width: 50%;
+}
+/* .para{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    
+} */
+.para{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.trip ul li{
+    list-style: none
+}
+
+
+.box2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+    background-color: #1E73BE;
+    border-radius: 20px;
+    color: white;
+    
+}
+.box2 ul li{
+    list-style: none;
+    gap: 10px;
+}
+
+
+.history{
+    background-image: url('images/pexels-vladimirsrajber-30053453.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.headtext1{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: 20px;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 12px;
+color: white;
+
+}
+.his-btn{
+    background: none;
+    border: 2px solid rgb(212, 232, 182);
+    color: white;
+    font-weight: 500;
+    padding: 9px;
+}
+
+
+.gallary{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-bottom: 30px;
+    
+}
+
+.icon-section{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;;
+}
+.icon-box{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    border: 2px solid rgb(222, 220, 220);
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.icon-box .fa-solid{
+    color: #1E73BE;
+    font-size: 30px;
+}
+.icon-box h4{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10px;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: space-around;
+    gap: 20px;
+    background-color: #0e4474b4;
+    color:white;
+    font-size: 14px;
+    padding: 20px;
+}
+
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #093052be;
+    gap: 20px;
+    margin-top: 20px;
+    padding: 10px;
+}
+.footer-img{
+    width: 50%;
+}
+.footer-cate{
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+}
+
+.footer-cate ul{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    background-color: #1E73BE;
+    
+}
+.footer-cate ul li{
+    padding: 10px;
+    border: 1px solid rgb(92, 84, 84);
+    display: flex;
+    gap: 20px;
+}
+
+.footer-arch ul{
+    display: flex;
+flex-direction: column;
+gap: 3px;
+margin-top: 20px;
+
+}
+.footer-arch ul li{
+    padding: 10px;
+    border: 1px solid rgb(92, 84, 84);
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+  
+    
+}
+.footer-cmt ul{
+    margin-top: 20px;
+}
+.footer-bottom{
+    display: flex;
+    border-top: 1px solid rgb(92, 84, 84);
+    background-color: #0e4474b4;
+    padding: 20px;
+    gap: 10px;
+}
+.footer-bottom p{
+    font-size: 9px;
+}
+.footer-cmt h3{
+    text-align: center;
+}
+.footer-cmt ul li{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+.username {
+    font-weight: bold;
+    color: #f1c40f;
+    margin-right: 4px;
+}
+.cmt-date{
+    font-size: 12px;
+    color: #ccc;
+    margin-left: 5px;
+}

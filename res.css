@@ -1,0 +1,96 @@
+@media screen and (max-width:425px) {
+    *{
+        font-size: 12px;
+
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+    .logo h2{
+        font-size: 40px;
+    }
+    .logo span{
+        font-size: 20px;
+    }
+    .image{
+        text-align: center;
+        padding: 10px;
+        
+    }
+    .btn{
+        padding: 6px;
+        font-size: 10px;
+    }
+    .headtext h1 {
+        font-size: 30px;
+    }
+    .headtext h1 span{
+        font-size: 20px;
+    }
+    .btn{
+        size: 12px;
+    }
+    .text1 h2{
+        font-size: 15px;
+    }
+    .grid{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+    }
+    .info{
+        display: flex;
+        flex-direction: column;
+    }
+    .history{
+        text-align: center;
+        padding: 35px;
+        
+    }
+  
+    
+    .headtext1{
+        color: rgb(106, 176, 220);
+    }
+    .gallary {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+    }
+    .gallary img {
+        width: 100%;
+        height: auto;
+    }
+    .icon-section {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        align-items: stretch;
+        justify-items: stretch;
+        gap: 10px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+    }
+    .footer-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (max-width:750px) {
+    .grid_Container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
